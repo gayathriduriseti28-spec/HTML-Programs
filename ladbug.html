@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Miraculous Ladybug - CSS Pseudo-class Selectors</title>
+ <style>
+   /* h1 changes style when hovered */
+   h1:hover {
+      color: white;
+      background-color: crimson;
+      text-decoration: underline;
+      cursor: pointer;
+   }
+
+   /* first paragraph */
+   p:first-of-type {
+      color: darkblue;
+   }
+
+   /* last paragraph inside div */
+   div p:last-child {
+      color: red;
+      font-weight: bold;
+   }
+
+   /* second paragraph inside div */
+   div p:nth-child(2) {
+      background-color: yellow;
+   }
+ </style>
+</head>
+<body>
+ <h1>Miraculous Ladybug</h1>
+
+ <h2>About Show</h2>
+ <p>Miraculous: Tales of Ladybug & Cat Noir is a French animated series about two teenagers, Marinette and Adrien, who transform into superheroes Ladybug and Cat Noir to protect Paris.</p>
+
+ <h3>Main Characters</h3>
+ <p>Ladybug (Marinette)</p>
+ <p>Cat Noir (Adrien)</p>
+ <p>Hawk Moth (Gabriel Agreste)</p>
+
+ <div>
+   <p>Kwamis are magical creatures that give powers.</p>
+   <p>Ladybug’s kwami is Tikki, and Cat Noir’s kwami is Plagg.</p>
+   <p>Together, they fight villains and save Paris.</p>
+ </div>
+</body>
+</html>

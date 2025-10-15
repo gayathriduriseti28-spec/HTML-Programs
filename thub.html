@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thumbnail Gallery</title>
+  <style>
+    body {
+      background-color: black;
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Colorful title */
+    h1 {
+      font-size: 50px;
+      text-transform: uppercase;
+      background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+      margin-bottom: 25px;
+      letter-spacing: 3px;
+      font-weight: bold;
+    }
+
+    .gallery {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 800px;
+    }
+
+    .gallery img {
+      width: 150px;
+      height: 100px;
+      object-fit: cover;
+      border: 3px solid white;
+      border-radius: 8px;
+      transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.1);
+      border-color: gold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Miraculous Ladybug</h1>
+
+  <div class="gallery">
+    <img src="file:///C:/Users/gayat/OneDrive/Pictures/photo1.jpg" alt="Photo 1">
+    <img src="file:///C:/Users/gayat/OneDrive/Pictures/photo2.jpg" alt="Photo 2">
+    <img src="file:///C:/Users/gayat/OneDrive/Pictures/photo3.jpg" alt="Photo 3">
+    <img src="file:///C:/Users/gayat/OneDrive/Pictures/photo4.jpg" alt="Photo 4">
+    <img src="file:///C:/Users/gayat/OneDrive/Pictures/photo5.jpg" alt="Photo 5">
+  </div>
+
+</body>
+</html>

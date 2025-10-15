@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>Profile</title>
+</head>
+<body>
+    <h1>My Profile</h1>
+
+    <a href="https://www.codechef.com/users/shadow_lice_37" target="_blank">
+        <img src="C:\Users\gayat\OneDrive\Documents\profile1.jpg" alt="Gayathri" width="200" height="200">
+    </a>
+
+    <a href="https://www.codechef.com/users/shadow_lice_37" target="_blank">
+        <img src="C:\Users\gayat\OneDrive\Documents\profile2.jpg" alt="Gayathri" width="200" height="200">
+    </a>
+</body>
+</html>
